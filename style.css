@@ -6,29 +6,36 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3 h4 {
     font-family: 'Merriweather', serif;
    
 }
-.banner-image img{
-    color: #070211, #07021100;
-}
-.banner-image{
-    text-align: center;   
-    margin: 20px; 
-}
-.banner-text{
+.banner {
+    width: 90%;
+    height: 600px; 
     text-align: center;
-    margin-top: -480px;
-    color: white;
-}
-.banner-text h4{
+    margin: auto;
+    background-image: url("image/Banner\ Image.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .text-container {
+    text-align: center;
+    color: white; 
+  }
+  .text-container h4{
     font-size: 32px;
     font-weight: 400;
-}
-.banner-text h2{
+  }
+  .text-container h2{
     font-size: 72px;
-    font-weight: 900;
-    line-height: 95px;
     padding: 0 300px 0 300px;
-}
+    font-weight: 900;
+  }
+ 
+  
