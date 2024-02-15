@@ -10,6 +10,12 @@ h1, h2, h3 h4 {
     font-family: 'Merriweather', serif;
    
 }
+
+.main-div{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
 .banner {
     width: 90%;
     height: 600px; 
@@ -56,4 +62,46 @@ h1, h2, h3 h4 {
     font-size: 48px;
     font-weight: 700;
  }
-  
+
+
+ .party {
+    width: 90%;
+    height: 600px; 
+    text-align: center;
+    margin: auto;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    align-items: ;
+    margin-top: 20px;
+  } 
+
+
+  .portfolio-main{
+    margin: 20px 50px;
+    text-align: left;
+  }
+ .portfolio-image{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+ }
+ .portfolio-text{
+    margin: 30px 0;
+ }
+ .portfolio-text h5{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+ }
+ .portfolio-text h2{
+    font-size: 48px;
+    font-weight: 900;
+    color: #070211;
+ }
+.portfolio-text p{
+    color: #07020B99;
+}
+
