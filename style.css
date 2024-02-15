@@ -1,24 +1,28 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: 'Inter', sans-serif;
 }
 
-h1, h2, h3 h4 {
+h1,
+h2,
+h3 h4 {
     font-family: 'Merriweather', serif;
-   
+
 }
 
-.main-div{
+.main-div {
     width: 90%;
     margin: auto;
     text-align: center;
 }
+
 .banner {
     width: 90%;
-    height: 600px; 
+    height: 600px;
     text-align: center;
     margin: auto;
     background-image: url("image/Banner\ Image.png");
@@ -28,45 +32,52 @@ h1, h2, h3 h4 {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-  } 
-  .text-container {
+}
+
+.text-container {
     text-align: center;
-    color: white; 
-  }
-  .text-container h4{
+    color: white;
+}
+
+.text-container h4 {
     font-size: 32px;
     font-weight: 400;
-  }
-  .text-container h2{
+}
+
+.text-container h2 {
     font-size: 72px;
     padding: 0 300px 0 300px;
     font-weight: 900;
-  }
-  .categorie{
+}
+
+.categorie {
     text-align: center;
-  }
- .categorie h2{
+}
+
+.categorie h2 {
     font-size: 88px;
     color: #F00;
     font-weight: 700;
     margin: 35px;
- }
- .categorie p {
+}
+
+.categorie p {
     font-size: 24px;
     font-weight: 500;
     color: #F00;
     margin: 10px 0;
- }
- .categorie h3{
+}
+
+.categorie h3 {
     color: #070211;
     font-size: 48px;
     font-weight: 700;
- }
+}
 
 
- .party {
+.party {
     width: 90%;
-    height: 600px; 
+    height: 600px;
     text-align: center;
     margin: auto;
     background-position: center;
@@ -75,33 +86,97 @@ h1, h2, h3 h4 {
     justify-content: left;
     align-items: ;
     margin-top: 20px;
-  } 
+}
 
 
-  .portfolio-main{
+.portfolio-main {
     margin: 20px 50px;
     text-align: left;
-  }
- .portfolio-image{
+}
+
+.portfolio-image {
     text-align: center;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
- }
- .portfolio-text{
+}
+
+.portfolio-text {
     margin: 30px 0;
- }
- .portfolio-text h5{
+}
+
+.portfolio-text h5 {
     color: #F00;
     font-size: 24px;
     font-weight: 500;
- }
- .portfolio-text h2{
+}
+
+.portfolio-text h2 {
     font-size: 48px;
     font-weight: 900;
     color: #070211;
- }
-.portfolio-text p{
+}
+
+.portfolio-text p {
     color: #07020B99;
 }
 
+
+.subscribe-main {
+    background-color: #FF00000D;
+    margin: 50px 0;
+    width: 1320px;
+    height: 500px;
+    border-radius: 8px;
+    
+
+}
+
+.subscribe-main h2 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.subscribe-main p {
+    color: #07020B99;
+    font-size: 20px;
+    margin: 15px 200px 15px 200px;
+
+}
+
+.subscribe-container {
+    display: flex;
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.email-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.subscribe-btn {
+    padding: 10px 20px;
+    background-color: #F00;
+    color: #fff;
+    border: 1px solid #4CAF50;
+    cursor: pointer;
+    outline: none;
+    border-radius: 0px 50px 50px 0px;
+    ;
+}
+
+.subscribe-btn:hover {
+    background-color: #45a049;
+}
+
+.footer-first-text-div{
+    display: flex;
+    justify-content: space-around;
+}
