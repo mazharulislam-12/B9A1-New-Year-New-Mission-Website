@@ -22,8 +22,7 @@ h1, h2, h3 h4 {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-  }
-  
+  } 
   .text-container {
     text-align: center;
     color: white; 
@@ -37,5 +36,24 @@ h1, h2, h3 h4 {
     padding: 0 300px 0 300px;
     font-weight: 900;
   }
- 
+  .categorie{
+    text-align: center;
+  }
+ .categorie h2{
+    font-size: 88px;
+    color: #F00;
+    font-weight: 700;
+    margin: 35px;
+ }
+ .categorie p {
+    font-size: 24px;
+    font-weight: 500;
+    color: #F00;
+    margin: 10px 0;
+ }
+ .categorie h3{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+ }
   
